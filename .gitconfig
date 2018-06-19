@@ -1,0 +1,51 @@
+[user]
+	name = Richard Hwang
+    email = richard@doordash.com
+[core]
+	autocrlf = input
+	editor = /usr/local/bin/vim
+[push]
+	default = simple
+[filter "media"]
+	clean = git-media-clean %f
+	smudge = git-media-smudge %f
+[alias]
+    s = status
+    a = add
+
+    sh = show
+    shs = show --stat
+
+    d = diff
+    ds = diff --stat
+    dc = diff --cached
+
+    c = commit -m
+    ca = commit --amend
+
+    bl = blame
+
+    co = checkout
+    b = branch -vv
+    r = remote -v
+
+    rb = rebase
+    rbc = rebase --continue
+    rbs = rebase --skip
+
+    cp = cherry-pick
+
+    l = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cd) %C(bold blue)<%an>%Creset' --abbrev-commit --date=iso
+    whois = "!sh -c 'git log -i -1 --pretty=\"format:%an <%ae>\n\" --author=\"$1\"' -"
+
+    sta = stash
+    stak = stash --keep-index
+    stp = stash pop
+    p = push
+    f = fetch
+    pl = pull
+    plrb = pull --rebase
+
+    h = help
+[branch]
+    autosetuprebase = always
