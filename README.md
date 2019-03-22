@@ -27,3 +27,4 @@ To reproduce computer set-up:
 - Download oh-my-zsh
 - Clone dotfiles
 - Install tmux
+- https://evertpot.com/osx-tmux-vim-copy-paste-clipboard/
