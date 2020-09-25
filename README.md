@@ -10,7 +10,7 @@ To reproduce computer set-up:
 - Spotify
 
 ## System
-- Map <caps lock> to <ctrl>
+- Map caps lock to ctrl
 - Set up NightShift
 
 ## App modifications
