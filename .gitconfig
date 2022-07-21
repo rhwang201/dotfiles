@@ -3,7 +3,7 @@
     email = richard.hwang201@doordash.com
 [core]
     autocrlf = input
-    editor = /usr/in/vim
+    editor = /usr/bin/vim
 [push]
     default = simple
 [filter "media"]
