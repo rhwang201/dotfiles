@@ -1,14 +1,14 @@
 [user]
-	name = Richard Hwang
-    email = richard@doordash.com
+    name = Richard Hwang
+    email = richard.hwang201@doordash.com
 [core]
-	autocrlf = input
-	editor = /usr/local/bin/vim
+    autocrlf = input
+    editor = /usr/in/vim
 [push]
-	default = simple
+    default = simple
 [filter "media"]
-	clean = git-media-clean %f
-	smudge = git-media-smudge %f
+    clean = git-media-clean %f
+    smudge = git-media-smudge %f
 [alias]
     s = status
     a = add
